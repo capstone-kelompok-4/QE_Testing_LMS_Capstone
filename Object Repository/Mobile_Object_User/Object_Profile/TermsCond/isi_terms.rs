@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>isi_terms</name>
+   <tag></tag>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.View</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>package</name>
+      <type>Main</type>
+      <value>com.fourthsense.lms</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>Our Privacy Policy aims to explain how we appreciate, use, and collect your personal information which can be identified and obtained from each ongoing process. Every personal information that you submit through Binar Academy’s website, mobile app, or offline activities will be at your own risk. By submitting your personal information to us, you are deemed to have given your consent to the disclosure referred to this policy as required.
+
+This app is owned and managed by Binar Academy (“Binar”, “we”, “us”, “our”). This privacy policy will be reviewed regularly to make sure they are up-to-date. As a user of our app (“you”, “your”, “customer”, “user”), we encourage you to check this page regularly, to make sure you are up to date with the changes.
+
+This Privacy Policy is intended to communicate the use of your personal information collected from your visit to our website, mobile app, or offline activities. This Privacy Policy also includes our protection of your information that we share with our business partners, or personal information you provide to us through third party websites. This policy does not apply to websites, apps, and activities that we do not own/organize, or individuals that we do not employ.
+
+By placing an order on our website or app, over the phone, on email or in person, at an event, we may need to collect your name, email address, phone number, ID number, delivery address, and billing address. Additionally, we may require your debit or credit card details such as your card number, CV2 number and the card’s expiry date. By signing up to our app and newsletter, we will collect your email address, name, location, gender, age, and preferences relevant to our marketing research or products.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>checkable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>checked</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clickable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>enabled</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focused</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>scrollable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>long-clickable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>password</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>selected</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>83</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>424</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>913</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>1755</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>bounds</name>
+      <type>Main</type>
+      <value>[83,424][996,2179]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>displayed</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>resource-id</name>
+      <type>Main</type>
+      <value></value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[2]</value>
+   </webElementProperties>
+   <locator>Our Privacy Policy aims to explain how we appreciate, use, and collect your personal information which can be identified and obtained from each ongoing process. Every personal information that you submit through Binar Academy’s website, mobile app, or offline activities will be at your own risk. By submitting your personal information to us, you are deemed to have given your consent to the disclosure referred to this policy as required.
+
+This app is owned and managed by Binar Academy (“Binar”, “we”, “us”, “our”). This privacy policy will be reviewed regularly to make sure they are up-to-date. As a user of our app (“you”, “your”, “customer”, “user”), we encourage you to check this page regularly, to make sure you are up to date with the changes.
+
+This Privacy Policy is intended to communicate the use of your personal information collected from your visit to our website, mobile app, or offline activities. This Privacy Policy also includes our protection of your information that we share with our business partners, or personal information you provide to us through third party websites. This policy does not apply to websites, apps, and activities that we do not own/organize, or individuals that we do not employ.
+
+By placing an order on our website or app, over the phone, on email or in person, at an event, we may need to collect your name, email address, phone number, ID number, delivery address, and billing address. Additionally, we may require your debit or credit card details such as your card number, CV2 number and the card’s expiry date. By signing up to our app and newsletter, we will collect your email address, name, location, gender, age, and preferences relevant to our marketing research or products.</locator>
+   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
+</MobileElementEntity>
