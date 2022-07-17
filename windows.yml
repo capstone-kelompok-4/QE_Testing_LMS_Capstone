@@ -10,10 +10,10 @@ jobs:
     runs-on: latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.2
+        uses: actions/checkout@main
       - name: Katalon Studio Github Action
         uses: katalon-studio/katalon-studio-github-action@v2
         with:
           version: "7.5.5"
           projectPath: "${{ github.workspace }}"
-          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Simple Test Suite Collection" -apiKey= "464d8557-e7c7-4616-88f2-5d952c1d4a64" --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites" -apiKey= "464d8557-e7c7-4616-88f2-5d952c1d4a64" --config -webui.autoUpdateDrivers=true'
