@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('Object Repository/Web_Object_User/Object_Report/Pa
 
 WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/verify_search_name'), 'Danny Chois')
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Back To Home'))
 

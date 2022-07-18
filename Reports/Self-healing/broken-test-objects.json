@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/p_1 Introduction to React JS",
+      "brokenLocator": "//div[@id\u003d\u0027panelsStayOpen-1\u0027]/div/a/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mastering Frontend Development with React.Js\u0027])[1]/following::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/p_1 Introduction to React JS_neighbor.png"
+    }
+  ]
 }

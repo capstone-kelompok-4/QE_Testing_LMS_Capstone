@@ -35,11 +35,7 @@ WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/Page_React Ap
 
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/next_material_course_slide'))
 
-WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/next_slide'))
-
-WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/next_slide'))
-
-WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/next_slide'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/checklist_completed course'))
 

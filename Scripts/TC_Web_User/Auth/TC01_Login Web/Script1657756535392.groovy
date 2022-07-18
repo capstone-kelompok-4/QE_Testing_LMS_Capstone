@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'Set viewport size 703x347'
+WebUI.setViewPortSize(1024, 768)
+
 WebUI.navigateToUrl('https://capstone-lms-alterra.netlify.app/login')
 
 WebUI.setText(findTestObject('Object Repository/Web_Object_User/Object_Auth/Object_Logout/Page_React App/input_Your Email_email'), 

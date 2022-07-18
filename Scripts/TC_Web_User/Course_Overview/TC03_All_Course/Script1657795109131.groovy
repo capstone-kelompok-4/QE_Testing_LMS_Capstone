@@ -21,7 +21,9 @@ WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/t
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/button_Lihat Semua'))
 
-WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/tittle_mastering_flutter'), 'Mastering Mobile Development With Flutter')
+WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/tittle_mastering_qe'), 'Intermediate Quality Engineer')
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/nav_to_course'))
 

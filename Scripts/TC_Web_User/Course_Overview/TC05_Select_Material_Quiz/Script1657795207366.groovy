@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_Quiz - Fundamental of UIUX'))
+WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Course_Overview/verify_quiz'), 0)
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div__AB7Lab Id5V1'))
+WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Course_Overview/verify_form_quiz'), 0)
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_B'))
 
@@ -32,4 +32,6 @@ WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Over
 WebUI.rightClick(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/span_Kirim'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/next_course_material_video'))
 
