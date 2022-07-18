@@ -19,19 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Course_Overview/verify_quiz'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Course_Overview/verify_form_quiz'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/span_Kirim'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_B'))
-
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_C'))
-
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_C'))
-
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_C'))
-
-WebUI.rightClick(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/span_Kirim'))
-
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/next_course_material_video'))
 

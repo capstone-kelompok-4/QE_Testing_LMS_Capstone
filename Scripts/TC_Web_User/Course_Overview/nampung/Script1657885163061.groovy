@@ -33,3 +33,17 @@ WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Over
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/i_of_icon-chevron-right'))
 
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_Watch on_ytp-progress-bar'))
+
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_Watch on_ytp-progress-bar'))
+
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_Watch on_ytp-progress-bar'))
+
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/button_Live_ytp-button ytp-settings-button'))
+
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/span_480p'))
+
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/div_480p'))
+
+WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/btn_fullscreen_youtube'))
+

@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_Web_User/Auth/TC01_Login Web'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/nav_to_course'))
 
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/select_course_react'))

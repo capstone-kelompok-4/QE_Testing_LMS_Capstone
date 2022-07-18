@@ -38,39 +38,39 @@ WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/next_course_m
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Sort Category_category'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_UIUX Research  Design_category'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/button_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_UIUX Research  Design_category'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Mastering Front-End Development with _0fa811'))
-
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/button_Simpan'))
-
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Mastering Front-End Development with _0fa811'))
-
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Mastering Mobile Development with Flu_a7ddcd'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/button_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Mastering Mobile Development with Flu_a7ddcd'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Mastering Mobile Development with Flu_a7ddcd'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Mastering Front-End Development with _0fa811'))
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/button_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_UIUX Research  Design_category'))
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Sort Category_category'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/button_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Mastering Mobile Development with Flu_a7ddcd'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Mastering Front-End Development with _0fa811'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_UIUX Research  Design_category'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Sort Category_category'))
 

@@ -19,8 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'Set viewport size 703x347'
-WebUI.setViewPortSize(1024, 768)
+'Maximize current window'
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://capstone-lms-alterra.netlify.app/login')
 
