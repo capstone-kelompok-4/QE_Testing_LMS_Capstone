@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_Web_User/Auth/TC01_Login Web'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Web_Object_User/Object_Profile/Page_React App/nav_profile'))
 
 WebUI.click(findTestObject('Web_Object_User/Object_Profile/Page_React App/tab_Certificate'))
@@ -27,21 +25,18 @@ WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Pag
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/img_Collect you completed courses or traini_b58783'))
 
-WebUI.click(findTestObject('Web_Object_User/Object_Profile/Page_React App/nav_profile'))
-
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/h5_UIUX Research  Design'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/img_Collect you completed courses or traini_b58783'))
-
-WebUI.click(findTestObject('Web_Object_User/Object_Profile/Page_React App/nav_profile'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/h5_Mastering Front-end Developement with React JS'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/img_Collect you completed courses or traini_b58783'))
 
-WebUI.click(findTestObject('Web_Object_User/Object_Profile/Page_React App/nav_profile'))
-
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/h5_Mastering Mobile Development with Flutter'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/img_Collect you completed courses or traini_b58783'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/img_Collect you completed courses or traini_b58783'))
 

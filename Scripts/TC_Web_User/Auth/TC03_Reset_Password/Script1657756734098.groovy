@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://capstone-lms-alterra.netlify.app/login')
-
 WebUI.click(findTestObject('Web_Object_User/Object_Auth/Object_Reset Password/a_Reset'))
 
 WebUI.setText(findTestObject('Web_Object_User/Object_Auth/Object_Reset Password/input_Your email_email'), 'danny_choi@gmail.com')
 
 WebUI.click(findTestObject('Web_Object_User/Object_Auth/Object_Reset Password/button_Send Reset Link'))
 
-WebUI.verifyElementPresent(findTestObject('Page_React App/div_Firebase Error (authuser-not-found)'), 0)
+WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Auth/Object_Reset Password/verify_reset'), 0)
+
+WebUI.delay(3)
 

@@ -17,11 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Dashboard/Object_Online Board/avatar_user_online_board'), 2)
-
-WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Dashboard/Object_Online Board/td_Herman Blaze'), 
+WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Dashboard/Object_Online Board/avatar_user_online_board'), 
     2)
 
-WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Dashboard/Object_Online Board/h3_Online Board'), 
-    2)
+WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Dashboard/Object_Online Board/td_Herman Blaze'), 2)
+
+WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Dashboard/Object_Online Board/h3_Online Board'), 2)
+
+WebUI.delay(3)
 

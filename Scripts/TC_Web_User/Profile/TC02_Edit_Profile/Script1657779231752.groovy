@@ -21,7 +21,11 @@ WebUI.click(findTestObject('Web_Object_User/Object_Profile/Page_React App/tab_ed
 
 WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Profile/Page_React App/h2_PERSONAL INFORMATION'), 0)
 
-WebUI.setText(findTestObject('Web_Object_User/Object_Profile/Page_React App/input_Full Name_fullName'), 'Danny Choiz')
+WebUI.click(findTestObject('Web_Object_User/Object_Profile/change_address'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Web_Object_User/Object_Profile/change_address'), 'st')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Web_Object_User/Object_Profile/Page_React App/button_Save'))
 

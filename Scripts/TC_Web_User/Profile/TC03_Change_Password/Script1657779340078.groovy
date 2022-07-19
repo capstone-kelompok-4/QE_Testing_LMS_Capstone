@@ -17,18 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/a_Change Password'))
+WebUI.click(findTestObject('Web_Object_User/Object_Profile/nav_change_pwd'))
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/button_Save'))
+WebUI.setText(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/input_Current Password_currentPassword'), 
+    'danny123')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/input_Current Password_currentPassword'), 
-    'bHvWYdjKrG00TDoHEsg6TQ==')
+WebUI.setText(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/input_New Password_newPassword'), 
+    'danny421')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/input_New Password_newPassword'), 
-    'xNkrJvNrtLW0TvWRZfr2pg==')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/input_Confirm Password_confirmPassword'), 
-    'xNkrJvNrtLW0TvWRZfr2pg==')
+WebUI.setText(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/input_Confirm Password_confirmPassword'), 
+    'danny421')
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/button_Save'))
 
@@ -38,5 +36,9 @@ WebUI.verifyElementText(findTestObject('Page_React App/div_Password Successfully
 
 WebUI.verifyElementText(findTestObject('Page_React App/div_SuccessPassword Successfully ChangedOKNoCancel'), 'Password Successfully Changed')
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/button_OK'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Web_Object_User/Object_Profile/btn_ok_change_pwd'))
+
+WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/nav_to_course'))
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/button_'))
+WebUI.scrollToElement(findTestObject('Web_Object_User/Object_Auth/Object_Login Web/verify_userloginweb'), 0)
 
 WebUI.rightClick(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/span_August 2022'))
 

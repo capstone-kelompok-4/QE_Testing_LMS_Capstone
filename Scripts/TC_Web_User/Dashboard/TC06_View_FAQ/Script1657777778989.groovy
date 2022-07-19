@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_FAQ/p_FAQ'))
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(5)
 

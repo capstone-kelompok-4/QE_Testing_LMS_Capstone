@@ -17,22 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_Web_User/Auth/TC01_Login Web'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/nav_to_course'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/h3_My Course'), 
     0)
 
 WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/verify_flutter'), 'Mastering Mobile Development With Flutter')
-
-WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/verify_react'), 'Mastering Frontend Development with React.Js')
-
-WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/verify_uiuxdesigner'), 'UI/UX Research & Design')
-
-WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/verify_angular'), 'Mastering Frontend Development with Angular')
-
-WebUI.callTestCase(findTestCase('TC_Web_User/Course_Overview/TC03_All_Course'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('TC_Web_User/Course_Overview/TC04_Participant'), [:], FailureHandling.STOP_ON_FAILURE)
 

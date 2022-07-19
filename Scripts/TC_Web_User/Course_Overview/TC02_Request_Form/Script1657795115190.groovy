@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/nav_to_course'))
 
-WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/read_more_dummy_qe_2'))
+WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/read_more_req_intro_web'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/h4_SEND REQUEST'))
 
@@ -32,11 +32,11 @@ WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Over
 
 WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/verify_toast_success'), 'Success!')
 
-WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Course_Overview/verify_req_terkirim'), 'Request Berhasil Terkirim')
-
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/button_OK'))
 
 WebUI.verifyElementPresent(findTestObject('Page_React App/h4_WAITING APPROVAL'), 0)
 
-WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/btn_back_course_overview'))
+WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Back To Home'))
+
+WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/nav_to_course'))
 

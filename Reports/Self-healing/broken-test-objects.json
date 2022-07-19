@@ -9,6 +9,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/p_1 Introduction to React JS_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_Object_User/Object_Course_Overview/Page_React App/button_Watch on_ytp-play-button ytp-button",
+      "brokenLocator": "//div[@id\u003d\u0027movie_player\u0027]/div[28]/div[2]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Watch on\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_Object_User/Object_Auth/Object_Logout/Page_React App/button_Logout",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/section/div/div/div/div[2]/button[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_Object_User/Object_Auth/Object_Logout/Page_React App/button_Logout_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_Object_User/Object_Report/Page_React App/a_User Report",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[2]/div/button[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_Object_User/Object_Report/Page_React App/a_User Report_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_Object_User/Object_Report/Page_React App/a_User Report",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[2]/div/button[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mastering Frontend Development with React.Js\u0027])[2]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_Object_User/Object_Report/Page_React App/a_User Report_neighbor.png"
     }
   ]
 }

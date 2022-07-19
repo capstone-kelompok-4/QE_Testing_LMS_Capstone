@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/button_Unduh Report'))
 
+WebUI.delay(2)
+

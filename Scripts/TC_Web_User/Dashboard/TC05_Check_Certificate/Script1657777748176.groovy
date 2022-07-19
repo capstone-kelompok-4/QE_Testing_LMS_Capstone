@@ -24,5 +24,5 @@ WebUI.setText(findTestObject('Web_Object_User/Object_Dashboard/Object_Check Cert
 
 WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Check Certificate/button_CHECK CODE'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Back To Home'))
 

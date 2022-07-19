@@ -17,7 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/select_course_react'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/h4_START COURSE'))
+
+WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/img_Section5 Global State Management_Detail_fb97af'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/img'), 0)
+
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/img'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/p_Data Report'))
+
+WebUI.delay(3)
 

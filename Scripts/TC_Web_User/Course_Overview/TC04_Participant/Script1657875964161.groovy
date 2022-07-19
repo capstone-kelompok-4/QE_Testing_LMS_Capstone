@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/nav_to_course'))
-
 WebUI.scrollToElement(findTestObject('Web_Object_User/Object_Course_Overview/title_courseoverview'), 0)
 
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/select_course_react'))

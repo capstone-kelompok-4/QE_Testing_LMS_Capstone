@@ -21,3 +21,5 @@ WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page
 
 WebUI.scrollToElement(findTestObject('Page_React App/td_Building Portfolio'), 0)
 
+WebUI.delay(3)
+

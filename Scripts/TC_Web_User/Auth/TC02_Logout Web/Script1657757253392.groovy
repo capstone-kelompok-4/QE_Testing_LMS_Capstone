@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/nav_to_course'))
+
 WebUI.click(findTestObject('Web_Object_User/Object_Auth/Object_Logout/Page_React App/button_Logout'))
 
 WebUI.delay(3)
