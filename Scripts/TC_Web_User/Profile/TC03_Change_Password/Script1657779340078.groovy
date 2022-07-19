@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.scrollToElement(findTestObject('Web_Object_User/Object_Profile/return_name_acc'), 0)
+
 WebUI.click(findTestObject('Web_Object_User/Object_Profile/nav_change_pwd'))
 
 WebUI.setText(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/input_Current Password_currentPassword'), 
@@ -32,9 +34,9 @@ WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Pag
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Profile/Page_React App/h2_Success'))
 
-WebUI.verifyElementText(findTestObject('Page_React App/div_Password Successfully Changed'), 'Success!')
+WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Profile/nav_change_pwd'), 'Success!')
 
-WebUI.verifyElementText(findTestObject('Page_React App/div_SuccessPassword Successfully ChangedOKNoCancel'), 'Password Successfully Changed')
+WebUI.verifyElementText(findTestObject('Web_Object_User/Object_Profile/verify_success'), 'Password Successfully Changed')
 
 WebUI.delay(2)
 

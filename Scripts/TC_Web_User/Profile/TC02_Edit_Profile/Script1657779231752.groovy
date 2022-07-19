@@ -23,7 +23,7 @@ WebUI.verifyElementPresent(findTestObject('Web_Object_User/Object_Profile/Page_R
 
 WebUI.click(findTestObject('Web_Object_User/Object_Profile/change_address'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Web_Object_User/Object_Profile/change_address'), 'st')
+WebUI.setText(findTestObject('Web_Object_User/Object_Profile/change_address'), ' st')
 
 WebUI.delay(3)
 

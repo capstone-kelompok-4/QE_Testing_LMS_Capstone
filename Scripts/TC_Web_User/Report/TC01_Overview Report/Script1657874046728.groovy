@@ -25,9 +25,9 @@ WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/img_Section5 Global State Management_Detail_fb97af'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/img'), 0)
+WebUI.scrollToElement(findTestObject('Web_Object_User/Object_Report/icon_data_report'), 0)
 
-WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/img'))
+WebUI.click(findTestObject('Web_Object_User/Object_Report/icon_data_report'))
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/p_Data Report'))
 

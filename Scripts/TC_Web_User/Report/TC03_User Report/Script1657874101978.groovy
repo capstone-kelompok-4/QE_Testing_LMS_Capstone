@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Web_Object_User/Object_Report/Page_React App/a_User Report'))
 
-WebUI.scrollToElement(findTestObject('Page_React App/td_Building Portfolio'), 0)
+WebUI.scrollToElement(findTestObject('Web_Object_User/Object_Report/scroll_bawah_report'), 0)
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Back To Home'))
 

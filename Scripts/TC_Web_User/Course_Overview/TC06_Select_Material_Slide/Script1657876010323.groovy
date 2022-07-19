@@ -39,7 +39,3 @@ WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/checklist_com
 
 WebUI.click(findTestObject('Web_Object_User/Object_Course_Overview/next_material_course_quiz'))
 
-WebUI.callTestCase(findTestCase('TC_Web_User/Course_Overview/TC05_Select_Material_Quiz'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('TC_Web_User/Course_Overview/TC07_Select_Material_Video'), [:], FailureHandling.STOP_ON_FAILURE)
-

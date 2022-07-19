@@ -17,9 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://capstone-lms-alterra.netlify.app/login')
-
-WebUI.setText(findTestObject('Object Repository/Web_Object_User/Object_Forum/Page_React App/input_Your Email_email'), 'danny_choi@gmail.com')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Web_Object_Admin/Object_Manage_Course/Page_Web Admin/div_Introducting Web Programming'), 
+    0)
 

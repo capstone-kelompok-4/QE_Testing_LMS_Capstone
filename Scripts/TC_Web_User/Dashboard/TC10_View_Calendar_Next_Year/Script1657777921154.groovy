@@ -19,11 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.scrollToElement(findTestObject('Web_Object_User/Object_Auth/Object_Login Web/verify_userloginweb'), 0)
 
-WebUI.rightClick(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/span_August 2022'))
+WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/button_next_week'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/button_next_year'))
-
-WebUI.rightClick(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/span_August 2023'))
-
-WebUI.rightClick(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/span_July 2022'))
 

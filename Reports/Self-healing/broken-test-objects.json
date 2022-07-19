@@ -49,6 +49,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_Object_User/Object_Report/Page_React App/a_User Report_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_Object_User/Object_Forum/Page_React App/sort_flutter",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "/html/body/div/div/div[2]/div[2]/div/div/div/div[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_Object_User/Object_Forum/Page_React App/sort_flutter_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_Object_User/Object_Report/Page_React App/img",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027icon\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_Object_User/Object_Report/Page_React App/img_img.png"
     }
   ]
 }

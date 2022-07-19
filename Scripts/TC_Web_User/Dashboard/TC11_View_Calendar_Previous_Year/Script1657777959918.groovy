@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/prev_week'))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/button_prev_year'))
-
-WebUI.rightClick(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/span_July 2022'))
-
-WebUI.rightClick(findTestObject('Web_Object_User/Object_Dashboard/Object_Calendar/span_June 2021'))
 
